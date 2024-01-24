@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* color classes */
+:root {
+  --accentkleur: #FE6F3B;
+  --white: #fafafa;
+  --textColor: #666666;
+  --sectionBackgroundColor: #ffc93d;
+  --blockquote1BackgroundColor: #165263;
+  --black: rgba(0, 0, 0, 0.4);
+  --lightgray: lightgray;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--lightgray);
+    width: 80%;
+    margin:0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    display: block;
+    padding: 3rem 3rem 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5em;
+    background-color: var(--white);
+}
+
+article {
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1em;
+    padding: 2em;
+    transition: .5s ease-in-out;
+}
+
+article:hover {
+    background-color: var(--white);
+    box-shadow: 0px 17px 29px -13px rgba(0, 0, 0, 0.199);
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1em;
+    padding: 2em;
+    transition: .5s ease-in-out;
+}
+
+figcaption {
+    text-transform: uppercase;
+    padding: .7em;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+main img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+a img {
+    width: 1em;
+    height: auto;
+}
+
+/* Start footer */
+
+footer {
+    background-color: var(--white);
+    padding: 0em 1em 3em 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    text-align: left;
+}
+
+footer h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+footer a {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin-bottom: .5em;
+}
+
+footer section:nth-child(3) {
+    border-bottom: var(--textColor);
+}
+
+img {
+    width: 3em;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    footer {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* einde footer */
+
+strong {
+    color: var(--accentkleur);
+}
+
+main h1 {
+    text-transform: uppercase;
+    position: static;
+    font-weight: bolder;
+}
