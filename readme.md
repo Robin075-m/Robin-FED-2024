@@ -52,8 +52,6 @@ Robin Yildiz
 
   #### Screenshot(s) van de tweede pagina (small screen):
   pagina van team <br>
-
-  <img src="readme-images/Store.png" width="375px" alt="store pagina van apple">
    <img src="readme-images/Screenshot 2024-01-24 at 18.20.10.png" width="375px" alt="omschrijving van de pagina">
 <img src="readme-images/Screenshot 2024-01-25 at 00.21.54.png" width="375px" alt="omschrijving van de pagina">
 </details>
